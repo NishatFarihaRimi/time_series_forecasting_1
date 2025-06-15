@@ -82,6 +82,18 @@ Clone this repo:
 pip install -r requirements.txt
 Run notebooks in order for full pipeline (EDA → Preprocessing → Feature Engineering → Modeling)
 
+### Step 3: Set Up a Virtual Environment (Optional)
+* Creating a venv with conda and activating it
+```bash
+conda create -n time_series_env python==3.8.0
+conda activate time_series_env
+```
+### Step 4: Install dependencies
+ Installing the packages listed in *'requirements.txt'** file
+```bash
+pip install -r requirements.txt
+```
+
 ## 📌 Requirements
 * Python 3.8+
 * pandas, numpy, matplotlib, seaborn
