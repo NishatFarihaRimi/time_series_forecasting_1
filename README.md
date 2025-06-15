@@ -71,23 +71,14 @@ To run the Python script follow these steps:
 * Clone the repository to your local machine using Git.
 * Open command prompt and run the following command:
 ```bash
-git clone https://github.com/hrafid/ResumeSorter.git
+git clone https://github.com/NishatFarihaRimi/time_series_forecasting_1.git
 ```
 ### Step 2: Navigate to the Cloned Directory 
 ```bash
-cd ResumeSorter
+cd time_series_forecasting_1
 ```
 Clone this repo:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/time-series-sales-forecasting.git
-Install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Run notebooks in order for full pipeline (EDA → Preprocessing → Feature Engineering → Modeling)
 
