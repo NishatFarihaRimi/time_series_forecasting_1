@@ -11,7 +11,7 @@ Download Method: Via Kaggle API script (kaggle competitions download)
 
 Please include a folder with all the csv data named data and 
 
-### The dataset includes:
+The dataset includes:
 | Dataset | Description    |
 | :-------- | :------- |
 | train.csv:| Daily item-level sales (unit_sales) per store. Includes onpromotion. Only non-zero sales are recorded. Negative values indicate returns.|
@@ -39,15 +39,15 @@ This project is broken down into several stages for clarity and modular analysis
 
 
 ## 🔧 Key Techniques Used
-Time-based train-test split
+* Time-based train-test split
 
-Log transformation for stabilizing variance
+* Log transformation for stabilizing variance
 
-Feature scaling (StandardScaler)
+* Feature scaling (StandardScaler)
 
-Lag and rolling window feature engineering
+* Lag and rolling window feature engineering
 
-Exogenous variable selection via correlation analysis
+* Exogenous variable selection via correlation analysis
 
 
 ## Forecasting Models
@@ -58,16 +58,10 @@ Holt-Winters: Triple exponential smoothing
 XGBoost: Machine learning model with custom time features
 
 ## 📈  Evaluation Metrics
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-Mean Absolute Percentage Error (MAPE)
-
-R² Score
-
-R-squared (R²)
-
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+* Mean Absolute Percentage Error (MAPE)
+* R² Score
 
 ## Getting Started
 Clone this repo:
@@ -84,16 +78,12 @@ Edit
 pip install -r requirements.txt
 Run notebooks in order for full pipeline (EDA → Preprocessing → Feature Engineering → Modeling)
 
-📌 Requirements
-Python 3.8+
-
-pandas, numpy, matplotlib, seaborn
-
-statsmodels, scikit-learn
-
-xgboost
-
-kaggle (for data download)
+## 📌 Requirements
+* Python 3.8+
+* pandas, numpy, matplotlib, seaborn
+* statsmodels, scikit-learn
+* xgboost
+* kaggle (for data download)
 
 ## ✨ Future Work
 Hyperparameter tuning using GridSearchCV
