@@ -64,6 +64,19 @@ XGBoost: Machine learning model with custom time features
 * R² Score
 
 ## Getting Started
+
+### Running the Script
+To run the Python script follow these steps:
+### Step 1: Clone the GitHub Repository 
+* Clone the repository to your local machine using Git.
+* Open command prompt and run the following command:
+```bash
+git clone https://github.com/hrafid/ResumeSorter.git
+```
+### Step 2: Navigate to the Cloned Directory 
+```bash
+cd ResumeSorter
+```
 Clone this repo:
 
 bash
