@@ -9,8 +9,6 @@ Source: Kaggle Competition - [Corporación Favorita Grocery Sales Forecasting](h
 
 Download Method: Via Kaggle API script (kaggle competitions download)
 
-Please include a folder with all the csv data named data and 
-
 The dataset includes:
 | Dataset | Description    |
 | :-------- | :------- |
@@ -21,6 +19,20 @@ The dataset includes:
 | oil.csv: | Daily oil prices. Important due to Ecuador's oil-driven economy.|
 | holidays_events.csv: | National/local holidays and special events, including transferred, bridge, workday, and additional holiday types.|
 
+### Downloading Additional File
+ This script requires an additional file state_dict_model.pt* to execute.
+ Download the file from this [link]([https://drive.google.com/file/d/1-OZfY3-VOYt44nThkkuhO5z_QbXs1e4e/view?usp=sharing)] and place the downloaded file into a folder named Data in the root directory of the project.
+ * Afterwards your directory should look something like this:
+```bash
+Data/
+├── Data/
+│   └── your_downloaded_data_file.csv
+├── Time_Series_Project_Data_Analyse_EDA(2).ipynb
+├── Time_Series_Project_Data_Preprocessing(3).ipynb
+...
+├── ..............
+├── ..............
+```
 
 ## Project Structure
 
