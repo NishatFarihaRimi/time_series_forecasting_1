@@ -12,18 +12,15 @@ Download Method: Via Kaggle API script (kaggle competitions download)
 Please include a folder with all the csv data named data and 
 
 ### The dataset includes:
+| Dataset | Description    |
+| :-------- | :------- |
+| train.csv:| Daily item-level sales (unit_sales) per store. Includes onpromotion. Only non-zero sales are recorded. Negative values indicate returns.|
+| stores.csv:| city, state, type, and cluster.|
+| items.csv: | Item metadata – family, class, and perishable. Perishable items have a score weight of 1.25; others, 1.0.|
+| transactions.csv:| Number of transactions per store/date (training period only).|
+| oil.csv: | Daily oil prices. Important due to Ecuador's oil-driven economy.|
+| holidays_events.csv: | National/local holidays and special events, including transferred, bridge, workday, and additional holiday types.|
 
-train.csv: Daily item-level sales (unit_sales) per store. Includes onpromotion. Only non-zero sales are recorded. Negative values indicate returns.
-
-stores.csv: Store metadata – city, state, type, and cluster.
-
-items.csv: Item metadata – family, class, and perishable. Perishable items have a score weight of 1.25; others, 1.0.
-
-transactions.csv: Number of transactions per store/date (training period only).
-
-oil.csv: Daily oil prices. Important due to Ecuador's oil-driven economy.
-
-holidays_events.csv: National/local holidays and special events, including transferred, bridge, workday, and additional holiday types.
 
 ## Project Structure
 
@@ -32,6 +29,7 @@ This project is broken down into several stages for clarity and modular analysis
 
 | Notebook | Description    |
 | :-------- | :------- |
+| Time_Series_project_Kaggle_API_data_download.ipynb | Kaggle API to download the dataset for project, including steps to authenticate, fetch, and extract the data|
 | Time_Series_Project_Filter_Traindata(1).ipynb | Focused on filtering train data for Guayas region and top 3 item families|
 | Time_Series_Project_Data_Analyse_EDA(2).ipynb | Exploratory Data Analysis (EDA): trends, seasonality, outliers, and missing values|
 | Time_Series_Project_Data_Preprocessing(3).ipynb | Handling missing values, handling outliers, formatting dates, cleaning and basic preprocessing steps|
