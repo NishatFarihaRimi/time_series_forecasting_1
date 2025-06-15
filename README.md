@@ -86,11 +86,9 @@ Run notebooks in order for full pipeline (EDA → Preprocessing → Feature Engi
 * kaggle (for data download)
 
 ## ✨ Future Work
-Hyperparameter tuning using GridSearchCV
-
-Add LSTM/DeepAR models
-
-Deploy model via Streamlit or Flask
+* Hyperparameter tuning using GridSearchCV
+* Add LSTM/DeepAR models
+* Deploy model via Streamlit or Flask
 
 ## Acknowledgments
 Dataset from Kaggle: Corporación Favorita Grocery Sales Forecasting
